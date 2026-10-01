@@ -1,4 +1,8 @@
 import { PropertyItem, ClientInquiry, Founder } from '../types';
+import heroVillaImg from '../assets/images/hero_ceylon_luxury_villa_1790842457306.jpg';
+import penthouseImg from '../assets/images/colombo_waterfront_penthouse_1790842470694.jpg';
+import commercialImg from '../assets/images/ceylon_commercial_tower_1790842484344.jpg';
+import sapphireImg from '../assets/images/ceylon_royal_sapphire_1790842499208.jpg';
 
 export const INITIAL_PROPERTIES: PropertyItem[] = [
   {
@@ -10,7 +14,7 @@ export const INITIAL_PROPERTIES: PropertyItem[] = [
     priceUsd: 950000,
     location: 'Thalawathugoda, Colombo',
     district: 'Colombo',
-    image: '/src/assets/images/hero_ceylon_luxury_villa_1790842457306.jpg',
+    image: heroVillaImg,
     description: 'An architectural masterpiece designed in tropical modernism. Features expansive double-height living areas, imported teak wood finishes, private infinity pool, solar backup, and landscaped tropical gardens.',
     features: ['5 En-suite Bedrooms', 'Private Swimming Pool', 'Solar Powered System', 'Maids Quarters', '3-Car Garage', 'Architect-Designed'],
     bedrooms: 5,
@@ -31,7 +35,7 @@ export const INITIAL_PROPERTIES: PropertyItem[] = [
     priceUsd: 650000,
     location: 'Kollupitiya (Colombo 03), Marine Drive',
     district: 'Colombo',
-    image: '/src/assets/images/colombo_waterfront_penthouse_1790842470694.jpg',
+    image: penthouseImg,
     description: 'Exclusive penthouse with panoramic views of the Indian Ocean and Colombo port city. Luxury Italian kitchen, smart home automation, private elevator access, and rooftop terrace.',
     features: ['Panoramic Ocean View', 'Italian Designer Kitchen', 'Smart Home Integration', 'Clubhouse & Gym', '2 Dedicated Parking Slots'],
     bedrooms: 4,
@@ -51,7 +55,7 @@ export const INITIAL_PROPERTIES: PropertyItem[] = [
     priceUsd: 14000,
     location: 'Cinnamon Gardens (Colombo 07)',
     district: 'Colombo',
-    image: '/src/assets/images/ceylon_commercial_tower_1790842484344.jpg',
+    image: commercialImg,
     description: 'A Grade-A corporate office building situated in the most prestigious diplomatic zone of Colombo 07. Fully fitted glass curtain walls, centralized HVAC, dual high-speed elevators, and backup generator.',
     features: ['Grade-A Corporate Spec', 'Dual High-Speed Elevators', '24/7 Security & CCTV', 'Underground Parking for 25 Vehicles', '100% Generator Backup'],
     areaSqFt: 22000,
@@ -70,7 +74,7 @@ export const INITIAL_PROPERTIES: PropertyItem[] = [
     priceUsd: 215000,
     location: 'Ratnapura / Colombo Vault',
     district: 'Ratnapura',
-    image: '/src/assets/images/ceylon_royal_sapphire_1790842499208.jpg',
+    image: sapphireImg,
     description: 'Museum-grade natural unheated Ceylon Royal Blue Sapphire from the historic mines of Ratnapura. Complete with GIA & GIC international laboratory certification. An exceptional inflation-resistant tangible asset investment.',
     features: ['14.28 Carats Weight', 'Unheated / Untreated Natural', 'Certified GIA & GIC Gemological Lab', 'Vivid Royal Blue Color Grade', 'Vault Storage Available'],
     gemCarat: 14.28,

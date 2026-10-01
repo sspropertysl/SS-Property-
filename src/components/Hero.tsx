@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight, PhoneCall, ShieldCheck, MapPin, Building, Sparkles } from 'lucide-react';
 import { PropertyCategory } from '../types';
 import { SSLogo } from './SSLogo';
+import heroVillaImg from '../assets/images/hero_ceylon_luxury_villa_1790842457306.jpg';
 
 interface HeroProps {
   onSelectCategory: (cat: PropertyCategory) => void;
@@ -103,7 +104,7 @@ export const Hero: React.FC<HeroProps> = ({
             <div className="group relative overflow-hidden rounded-2xl border border-slate-800 shadow-2xl bg-slate-900">
               <div className="aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden">
                 <img
-                  src="/src/assets/images/hero_ceylon_luxury_villa_1790842457306.jpg"
+                  src={heroVillaImg}
                   alt="Modern Tropical Luxury Villa in Ceylon"
                   referrerPolicy="no-referrer"
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"

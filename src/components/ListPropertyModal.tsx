@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { X, Plus, Upload, CheckCircle2, Shield } from 'lucide-react';
 import { PropertyItem, PropertyCategory, ListingType } from '../types';
+import heroVillaImg from '../assets/images/hero_ceylon_luxury_villa_1790842457306.jpg';
+import penthouseImg from '../assets/images/colombo_waterfront_penthouse_1790842470694.jpg';
+import commercialImg from '../assets/images/ceylon_commercial_tower_1790842484344.jpg';
+import sapphireImg from '../assets/images/ceylon_royal_sapphire_1790842499208.jpg';
 
 interface ListPropertyModalProps {
   isOpen: boolean;
@@ -30,10 +34,10 @@ export const ListPropertyModal: React.FC<ListPropertyModalProps> = ({
   if (!isOpen) return null;
 
   const defaultImages: Record<PropertyCategory, string> = {
-    houses: '/src/assets/images/hero_ceylon_luxury_villa_1790842457306.jpg',
-    apartments: '/src/assets/images/colombo_waterfront_penthouse_1790842470694.jpg',
-    commercial: '/src/assets/images/ceylon_commercial_tower_1790842484344.jpg',
-    gemstones: '/src/assets/images/ceylon_royal_sapphire_1790842499208.jpg',
+    houses: heroVillaImg,
+    apartments: penthouseImg,
+    commercial: commercialImg,
+    gemstones: sapphireImg,
     lands: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80',
     vehicles: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80'
   };
