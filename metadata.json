@@ -1,0 +1,6 @@
+{
+  "name": "SS Property - Premier Ceylon Real Estate & Asset Investments",
+  "description": "SS Property is your trusted realtor and real estate partner in Ceylon. Discover residential, luxury villas, commercial office spaces, land plots, gem stones, and vehicles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
